@@ -1,0 +1,138 @@
+@media screen and (max-width:1200px){
+  
+  .contener{
+    width: 900px;
+  }
+  .mail-pass input, .log input{
+    padding: 10px 12px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .log input{
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  .create input{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .logo-area h1{
+    font-size: 45px;
+  }
+  .logo-area p{
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .content{
+    width: 900px;
+  }
+}
+@media screen and (max-width:992px){
+  .contener{
+    width: 750px;
+    padding: 100px 20px 0px 20px;
+  }
+  .login-area .form {
+    float: right;
+    text-align: center;
+    padding-left: 38px;
+}
+  .logo-area p{
+    font-size: 20px;
+    margin-top: 0px;
+    width: 90%;
+  }
+  .mail-pass input, .log input{
+    padding:10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .log a {
+    color: #3766cc;
+    margin: 10px 0;
+    display: inline-block;
+    line-height: 15px;
+    font-size: 13px;
+ }
+ .login-area .form .form2{
+   padding: 12px;
+ }
+ .create input{
+  margin-top: 10px;
+  padding: 8px;
+  margin-bottom: 0px;
+}
+.content{
+  width: 750px;
+  padding:0px 20px;
+ }
+
+}
+@media screen and (max-width:768px){
+  .contener{
+    width: 550px;
+    padding: 16px 20px 0px 20px;
+    text-align: center;
+  }
+  .content{
+    width: 500px;
+    padding:0px 20px;
+   }
+  .logo-area, .login-area{
+    float: none;
+    width: 100%;
+  }
+  .login-area .form {
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+    padding: 20px 100px 0 100px;
+}
+.logo-area p{
+  width: 70%;
+  margin:20px  auto;
+  font-size: 19px;
+}
+.footer .middle{
+  text-align: justify;
+}
+}
+@media screen and (max-width:576px){
+  .contener{
+    width: 400px;
+    padding: 10px 20px 10px 20px ;
+    text-align: center;
+  }
+  .login-area .form{
+    padding: 0px 40px;
+  }
+  .logo-area p{
+    width: 100%;
+    font-size: 19px;
+  }
+  .content{
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px ;
+  }
+  .footer .middle{
+    text-align: justify;
+  }
+}
+
+/* 576px 768px 992px 1200px
+
+
+mobile{0-576px}smd
+tablet{577-768px}mdd
+laptop{769-992px}lgd
+computer{993-1200px}xlgd
+
+
+{0-575}xsmd
+{576-767} smd
+{768-991}mdd
+{992-1199}ldg
+{1200-........}xldg */
